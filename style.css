@@ -145,7 +145,7 @@ span {
     padding-bottom: 1vw;
 }
 
-.data_adress {
+.property_name {
     margin: 3vw;
     font-size: 2vw;
     font-family: var(--primary-font);
@@ -157,9 +157,12 @@ span {
     background: var(--color-5);
     border: none;
     justify-content: center;
-    margin: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 13vw;
     font-family: var(--primary-font);
     color: white;
+
 
 
 }
