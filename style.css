@@ -33,7 +33,6 @@ img {
 
 
 #wrapper {
-    border: 1px solid black;
     width: 90vw;
     margin: auto;
 }
@@ -124,9 +123,9 @@ section.property_body {
     background: lightgrey;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 3vw;
+    padding: 2vw;
     font-family: var(--primary-font);
     font-size: 1.3vw;
 
@@ -157,12 +156,9 @@ span {
     background: var(--color-5);
     border: none;
     justify-content: center;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    margin-left: 13vw;
+    margin: 2vw;
     font-family: var(--primary-font);
     color: white;
-
 
 
 }
@@ -172,4 +168,5 @@ span {
     justify-content: center;
     border-bottom-left-radius:  1vw;
     border-bottom-right-radius:  1vw;
+    display: flex;
 }

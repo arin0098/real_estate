@@ -15,8 +15,12 @@ function showPost(post) {
     const clone = template.cloneNode(true);
 
     clone.querySelector(".property_name").textContent = post.property_name;
+    clone.querySelector(".bedrooms").textContent = post.bedrooms;
+    clone.querySelector(".bathrooms").textContent = post.bathrooms;
+    clone.querySelector(".meters").textContent = post.meters;
 
-document.querySelector("main").appendChild(clone);
+
+    document.querySelector("main").appendChild(clone);
 
 
 }
